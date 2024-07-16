@@ -104,7 +104,7 @@ const WordProcessor = () => {
             const outputBuffer = doc.getZip().generate({ type: 'blob' });
 
             // Сохранение измененного документа на устройстве пользователя
-            saveAs(outputBuffer, 'processed_document.docx');
+            saveAs(outputBuffer, 'Izjava_kapara.docx');
         } catch (error) {
             console.error('Error processing document:', error);
         }

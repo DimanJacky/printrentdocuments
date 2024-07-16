@@ -42,6 +42,7 @@ button:hover {
 .main {
     display: flex;
     gap: 10px;
+    width: 300px;
 }
 
 .leftcontainer {
